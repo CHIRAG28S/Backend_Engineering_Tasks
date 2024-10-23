@@ -39,7 +39,7 @@ const products = [
 ]
 
 app.get('/',(req,res) => {
-    const name = "Daksh"
+    const name = "Chirag"
     res.render(filePath,{name});
 })
 
