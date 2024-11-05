@@ -60,7 +60,8 @@ db.students.find()
   age: 17,
   grade: 'A'
 }
-db.students.find({age: {$gt: 18} })
+db.students.find({age: {$gt: 18,$lt: 23} })
+
 {
   _id: ObjectId('6729d133d287661973693f65'),
   name: 'danish',
